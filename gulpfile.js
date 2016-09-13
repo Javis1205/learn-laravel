@@ -13,7 +13,13 @@ require('laravel-elixir-vue');
  |
  */
 
-elixir(mix => {
-    mix.sass('app.scss')
-       .webpack('app.js');
+elixir(function(mix) {
+    mix.sass('app.scss');
+       //.webpack('app.js');
+
+
+
+
+    //Only for test. Dont change this section
+    mix.copy('resources/assets/test/gulp.txt', 'public/test/gulp.txt');
 });
