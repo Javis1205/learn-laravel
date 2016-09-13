@@ -52,6 +52,7 @@
   - Cài đặt phpunit (cài đặt để hệ điều hành nhận lệnh `phpunit --version`)
   - Cài đặt nodejs/npm (cài đặt để hệ điều hành nhận lệnh `npm -v` và `node -v`)
   - làm theo hướng dẫn để cài đặt Laravel
+  - Chạy `phpunit --filter Example` trong thư mục gốc của dự án sao cho thông báo không có lỗi
   - Chạy `phpunit --filter Mission0000Test` trong thư mục gốc của dự án sao cho thông báo không có lỗi
   - Viết lý thuyết về :
     - Composer : khái niệm, tính năng, cách dùng, autoload
