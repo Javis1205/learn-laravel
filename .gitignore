@@ -5,3 +5,7 @@
 Homestead.json
 Homestead.yaml
 .env
+/public/test
+/public/css
+/public/js
+composer.lock
